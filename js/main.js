@@ -20,14 +20,16 @@ $(".text_big15").click(function() {
     window.open(url, "_self");
 });
 
-var car_index = Math.floor(Math.random() * 10);
+//var car_index = Math.floor(Math.random() * 10);
 setInterval(function() {
-    car_index < 9 ? car_index++ : car_index = 0;
+    //car_index < 9 ? car_index++ : car_index = 0;
 
     $.ajax({
         url: 'php/car_list.php',
         dataType: 'json'
     });
-    $("#car-showcase").load("php/car_list.php", {"url_int": car_index});
+    //$("#car-showcase").load("php/car_list.php", {"url_int": car_index});
+    $("#car-showcase").load("php/car_list.php");
 }, 10000);
-$("#car-showcase").load("php/car_list.php", {"url_int": car_index});
+//$("#car-showcase").load("php/car_list.php", {"url_int": car_index});
+$("#car-showcase").load("php/car_list.php");
