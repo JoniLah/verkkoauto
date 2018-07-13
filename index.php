@@ -12,7 +12,7 @@
                 <li>
                     <div class="img-container animated flipInY">
                         <figure class="container-photo">
-                            <a href="contact.php"><img src="/verkkoauto/img/feature_contact.jpg" alt=""></a>
+                            <a href="contact.php"><img onload="this.style.display='block'" style="diplay:none" src="/verkkoauto/img/feature_contact.jpg" alt=""></a>
                             <div class="text-block">
                                 <h3 class="feature-text" unselectable="on">Yhteystiedot</h3>
                             </div>
@@ -22,7 +22,7 @@
                 <li>
                     <div class="img-container animated flipInY">
                         <figure class="container-photo">
-                            <a href="https://www.lahitapiola.fi/henkilo" target="_blank"><img src="/verkkoauto/img/feature_funding.jpg" alt=""></a>
+                            <a href="https://www.lahitapiola.fi/henkilo" target="_blank"><img onload="this.style.display='block'" style="diplay:none" src="/verkkoauto/img/feature_funding.jpg" alt=""></a>
                             <div class="text-block">
                                 <h3 class="feature-text" unselectable="on">Rahoitus</h3>
                             </div>
@@ -32,7 +32,7 @@
                 <li>
                     <div class="img-container animated flipInY">
                         <figure class="container-photo">
-                            <a href="cars.php"><img src="/verkkoauto/img/feature_cars.jpg" alt=""></a>
+                            <a href="cars.php"><img onload="this.style.display='block'" style="diplay:none" src="/verkkoauto/img/feature_cars.jpg" alt=""></a>
                             <div class="text-block">
                                 <h3 class="feature-text" unselectable="on">Ajoneuvot</h3>
                             </div>
